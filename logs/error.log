@@ -1,0 +1,8 @@
+2024-11-12 18:26:01 [[31merror[39m]: undefined Nuestro error
+2024-11-13 20:11:52 [[31merror[39m]: undefined Nuestro error
+2024-11-13 21:03:13 [[31merror[39m]: undefined Expected property name or '}' in JSON at position 10
+2024-11-13 21:03:39 [[31merror[39m]: undefined Unexpected token '"', ""string"" is not valid JSON
+2024-11-13 21:16:44 [[31merror[39m]: undefined Unexpected token '"', ""string"" is not valid JSON
+2024-11-13 23:38:56 [[31merror[39m]: undefined Users validation failed: pets: Cast to embedded failed for value "5f7e9f9b5f7e9f9b5f7e9f9c" (type string) at path "pets" because of "ObjectParameterError"
+2024-11-13 23:41:38 [[31merror[39m]: undefined Users validation failed: pets: Cast to embedded failed for value "5f7e9f9b5f7e9f9b5f7e9f9c" (type string) at path "pets" because of "ObjectParameterError"
+2024-11-13 23:51:01 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: _id_ dup key: { _id: ObjectId('5f7e9f9b5f7e9f9b5f7e9f9b') }

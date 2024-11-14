@@ -1,0 +1,34 @@
+paths:
+  /api/users/{uid}:
+    put:
+      summary: "Actualizar un usuario"
+      description: "Este endpoint permite actualizar un usuario existente por su ID."
+      operationId: "updateUser"
+      tags:
+        - "Usuarios"
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          schema:
+            type: string
+            example: "5f7e9f9b5f7e9f9b5f7e9f9b"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: "Usuario actualizado con éxito."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '400':
+          description: "Error en los datos proporcionados."
+        '404':
+          description: "Usuario no encontrado."
+        '500':
+          description: "Error interno del servidor."

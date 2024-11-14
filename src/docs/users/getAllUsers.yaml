@@ -1,0 +1,17 @@
+paths:
+  /api/users:
+    get:
+      summary: "Obtener todos los usuarios"
+      description: "Este endpoint permite obtener todos los usuarios registrados en la base de datos."
+      operationId: "getAllUsers"
+      tags:
+        - "Usuarios"
+      responses:
+        '200':
+          description: "Usuarios obtenidos con éxito."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserList'
+        '500':
+          description: "Error interno del servidor."

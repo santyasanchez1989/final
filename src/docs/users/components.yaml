@@ -1,0 +1,47 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: "ID del usuario"
+        first_name:
+          type: string
+          description: "Primer nombre del usuario"
+        last_name:
+          type: string
+          description: "Apellido del usuario"
+        email:
+          type: string
+          format: email
+          description: "Correo electrónico del usuario"
+        password:
+          type: string
+          description: "Contraseña del usuario"
+        role:
+          type: string
+          description: "Rol del usuario (por ejemplo, 'user' o 'admin')"
+          default: "user"
+        pets:
+          type: array
+          items:
+            type: string
+            description: "ID de las mascotas asociadas"
+          description: "Lista de mascotas asociadas al usuario"
+      example:
+        _id: "5f7e9f9b5f7e9f9b5f7e9f9b"
+        first_name: "John"
+        last_name: "Doe"
+        email: "johndoe@example.com"
+        password: "securepassword123"
+        role: "user"
+        pets: ["5f7e9f9b5f7e9f9b5f7e9f9c"]
+
+    UserList:
+      type: array
+      items:
+        $ref: "#/components/schemas/User"
+      description: "Lista de usuarios"
+        
+  
