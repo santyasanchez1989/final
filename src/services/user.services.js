@@ -14,10 +14,9 @@ export class UserServices {
   
   }
   async getById(id) {
-    const user = await this.userDao.getBy(id);
+    const user = await this.userDao.getById(id); // Usar getById en lugar de getBy
     if (!user) throw customError.notFoundError(`User id ${id} not found`);
     return user;
-  
   }
 
   async getByEmail(email) {

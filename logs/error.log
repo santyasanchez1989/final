@@ -51,3 +51,12 @@
 2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
 2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
 2024-11-15 13:03:39 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 13:06:34 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:06:52 [[31merror[39m]: undefined users validation failed: email: Path `email` is required.
+2024-11-15 13:07:22 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:13:28 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:32:36 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:33:23 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 15:22:29 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 15:36:42 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 15:51:38 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "673375a8030e550e722e1bcc" (type string)

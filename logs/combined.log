@@ -146,3 +146,29 @@
 2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
 2024-11-15 13:03:30 [[32minfo[39m]: Listening on 8080
 2024-11-15 13:03:39 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 13:05:21 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:06:34 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:06:52 [[31merror[39m]: undefined users validation failed: email: Path `email` is required.
+2024-11-15 13:07:22 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:13:28 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:32:36 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:33:14 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:33:23 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:36:13 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:06:06 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:10:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:13:51 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:22:29 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 15:26:04 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:34:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:34:10 [[32minfo[39m]: Connected to MongoDB
+2024-11-15 15:36:42 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 15:41:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:41:02 [[32minfo[39m]: Connected to MongoDB
+2024-11-15 15:43:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:43:02 [[32minfo[39m]: Connected to MongoDB
+2024-11-15 15:49:55 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:49:56 [[32minfo[39m]: Connected to MongoDB
+2024-11-15 15:51:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:51:33 [[32minfo[39m]: Connected to MongoDB
+2024-11-15 15:51:38 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "673375a8030e550e722e1bcc" (type string)

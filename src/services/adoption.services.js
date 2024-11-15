@@ -1,31 +1,23 @@
-import Adoption from "../dao/Adoption.js";
+import AdoptionModel from "../dao/models/Adoption.js";
 
 export class AdoptionServices {
-  constructor() {
-    this.adoptionDao = new Adoption();
-  }
-  async getAll() {
-    const adoptions = await this.adoptionDao.get();
-    return adoptions;
-  }
-  async getById(id) {
-    const adoption = await this.adoptionDao.getBy(id);
-    if (!adoption) throw customError.notFoundError(`Adoption id ${id} not found`);
-    return adoption;
-  }
+  create = (adoptionData) => {
+    return AdoptionModel.create(adoptionData);
+  };
 
-  async create(data) {
-    const adoption = await this.adoptionDao.save(data);
-    return adoption;
-  }
+  getAll = () => {
+    return AdoptionModel.find();
+  };
 
-  async update(id, data) {
-    const adoption = await this.adoptionDao.update(id, data);
-    return adoption;
-  }
+  getById = (id) => {
+    return AdoptionModel.findById(id);
+  };
 
-  async remove(id) {
-    await this.adoptionDao.delete(id);
-    return "ok";
-  }
+  update = (id, adoptionData) => {
+    return AdoptionModel.findByIdAndUpdate(id, adoptionData, { new: true });
+  };
+
+  delete = (id) => {
+    return AdoptionModel.findByIdAndDelete(id);
+  };
 }
