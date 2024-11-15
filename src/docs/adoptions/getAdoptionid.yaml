@@ -1,0 +1,25 @@
+paths:
+  /api/adoptions/{aid}:
+    get:
+      summary: Obtener una adopción específica
+      description: Retorna la adopción asociada con el ID proporcionado.
+      parameters:
+        - name: aid
+          in: path
+          required: true
+          description: ID de la adopción
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Detalles de la adopción
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '404':
+          description: No se encontró la adopción
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'

@@ -6,7 +6,7 @@ export default class Adoption {
         return adoptionModel.find(params);
     }
 
-    getBy = (params) =>{
+    getById= (params) =>{
         return adoptionModel.findOne(params);
     }
 

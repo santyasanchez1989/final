@@ -6,3 +6,48 @@
 2024-11-13 23:38:56 [[31merror[39m]: undefined Users validation failed: pets: Cast to embedded failed for value "5f7e9f9b5f7e9f9b5f7e9f9c" (type string) at path "pets" because of "ObjectParameterError"
 2024-11-13 23:41:38 [[31merror[39m]: undefined Users validation failed: pets: Cast to embedded failed for value "5f7e9f9b5f7e9f9b5f7e9f9c" (type string) at path "pets" because of "ObjectParameterError"
 2024-11-13 23:51:01 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: _id_ dup key: { _id: ObjectId('5f7e9f9b5f7e9f9b5f7e9f9b') }
+2024-11-15 09:58:01 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:06:54 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:10:57 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:14:09 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:21:16 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:31:55 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:36:48 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:42:53 [[31merror[39m]: undefined usersService is not defined
+2024-11-15 10:45:21 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 10:49:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:49:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:49:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:53:40 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:53:40 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:53:40 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:58:11 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:58:11 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 10:58:11 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 11:00:15 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 11:00:15 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 11:00:15 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:24:47 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 12:33:43 [[31merror[39m]: undefined this.userDao.getBy is not a function
+2024-11-15 12:48:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:48:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:48:45 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:50:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:50:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:50:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:52:06 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:52:06 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:52:06 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:53:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:53:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:53:28 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:56:01 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:56:01 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:56:01 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 12:57:44 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 13:02:18 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:02:18 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:02:52 [[31merror[39m]: undefined E11000 duplicate key error collection: proyectofinal.users index: email_1 dup key: { email: "usertest@example.com" }
+2024-11-15 13:03:39 [[31merror[39m]: undefined users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.

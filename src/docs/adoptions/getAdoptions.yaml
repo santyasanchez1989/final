@@ -1,0 +1,20 @@
+paths:
+  /api/adoptions:
+    get:
+      summary: Obtener todas las adopciones
+      description: Retorna un listado de todas las adopciones registradas.
+      responses:
+        '200':
+          description: Listado de adopciones
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Adoption'

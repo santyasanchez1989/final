@@ -1,0 +1,37 @@
+paths:
+  /api/adoptions/{uid}/{pid}:
+    post:
+      summary: Crear una nueva adopción
+      description: Crea una nueva adopción asociando un usuario con una mascota.
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          description: ID del usuario que realiza la adopción
+          schema:
+            type: string
+        - name: pid
+          in: path
+          required: true
+          description: ID de la mascota que será adoptada
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Adopción creada exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '400':
+          description: Error de valores incompletos o inválidos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Usuario o mascota no encontrados
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
