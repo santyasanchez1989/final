@@ -5,7 +5,7 @@ FROM node:20
 WORKDIR /app
 
 # Copiamos el archivo package.json a la carpeta de trabajo
-COPY package.json . 
+COPY package.json package-lock.json . 
 
 # Instalamos las dependencias del proyecto sin las devDependencies (para producción)
 RUN npm ci --omit=dev
@@ -34,16 +34,16 @@ CMD ["npm", "start"]
 # docker login
 
 # Crear el tag de la imagen
-# docker tag <nombre_imagen> <nombre_usuario_dockerhub>/<nombre_repositorio>:<tag>
+# docker tag app-adopcion santyasanchez1989/backend3sanchezadopcion
 
 # Subir la imagen a dockerhub
-# docker push <nombre_usuario_dockerhub>/<nombre_repositorio>:<tag>
+# docker push santyasanchez1989/backend3sanchezadopcion
 
 # Descargar la imagen
-# docker pull <nombre_usuario_dockerhub>/<nombre_repositorio>:<tag>
+# docker pull santyasanchez1989/backend3sanchezadopcion:1.0.0
 
 # Descargar de manera publica la imagen
-# docker pull <nombre_repositorio>:<tag>
+# docker pull ackend3sanchezadopcion:1.0.0
 
 # Ejemplo 
 # docker pull adoption:1.0.0
